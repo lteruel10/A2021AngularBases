@@ -1,6 +1,36 @@
 # Bases
+// crear proyuecto angular
+* ng new bases
+* ng --version //para ver la vesion isntalada
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///creado x angular
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.2.
+
 
 ## Development server
 
