@@ -5,5 +5,15 @@ import { Component } from "@angular/core";
     templateUrl :'./heroe.component.html'
 })
 export class HeroeComponent{
+    nombre  :string='Ironman';
+    edad    :number =45;
+
+    obtenerNombre():string{
+        return `${this.nombre} - ${this.edad}`;
+    }
+
+    get nombreCapitalizado():string{//simula ser una propiedad pero es un getter
+        return this.nombre.toUpperCase();
+    }
 
 }
