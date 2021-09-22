@@ -15,10 +15,10 @@
     <div class="col">
         <h3>Agregar</h3>
         <hr>
-        <form >
+        <form (ngSubmit)="agregar()" >
             <input placeholder="Nombre del Pesonaje" type="text">
             <input placeholder="Poder del Pesonaje" type="number">
-            <button>
+            <button type = "submit">
                 Agregar
             </button>
         </form>

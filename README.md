@@ -22,8 +22,15 @@
 * ng g c dbz dbz/mainPage //creamos el componente dbz 
 *  ng g c dbz/mainPage --skipTests//evita poner el test 
 
-
-
+# FORMULARIOS EL
+* prevenir refrescameitno de pantalla con formularios el
+* en dbz.module.ts agregar a los imports FormsModule
+    *  imports: [
+            CommonModule,
+            FormsModule
+        ]
+    * luego agregarmos ngSubmit en el formulario
+    <form (ngSubmit)="agregar()" >
 
 
 
