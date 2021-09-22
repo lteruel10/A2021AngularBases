@@ -13,10 +13,20 @@ interface Personaje{
 
 
 export class MainPageComponent  {
-nuevo:Personaje={
-  nombre:'Trucks',
-  poder:14000
-}
+  personaje:Personaje[]=[
+   { nombre:'Goku',
+    poder:15000},
+    { nombre:'Vegueta',
+    poder:7500},
+    { nombre:'Krillin',
+    poder:0},
+    { nombre:'Picolo',
+    poder:25000}
+  ];
+  nuevo:Personaje={
+    nombre:'',
+    poder:0
+  }
 
 
 // agregar(event:any){ 
@@ -24,10 +34,18 @@ nuevo:Personaje={
 //   console.log(event);
 // }
 agregar(){ 
-  console.log(this.nuevo);
+  //validacion
+  if (this.nuevo.nombre.trim().length===0){   return; }//salte de este metodo
+    console.log(this.nuevo);
+    this.personaje.push(this.nuevo);
+    this.nuevo={
+      nombre:'',
+      poder:0
+    }
 }
 cambiarNombre(event:any){ 
   console.log(event.data); 
   console.log(event.target.value); 
+
 }
 }
