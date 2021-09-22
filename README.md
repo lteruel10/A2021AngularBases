@@ -18,7 +18,9 @@
 
 
 # Modulos
-* 
+* ng g m nombreModulo //creamos el modulo
+* ng g c dbz dbz/mainPage //creamos el componente dbz 
+*  ng g c dbz/mainPage --skipTests//evita poner el test 
 
 
 
