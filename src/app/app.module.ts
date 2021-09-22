@@ -2,18 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { ContadorComponent } from './contador/contador.components';
-import { HeroeComponent } from './heroes/heroe/heroe.component';
-import { ListaComponent } from './heroes/lista/lista.component';
+import { ContadorModule } from './contador/contador.module';
+import { DbzModule } from './dbz/dbz.module';
+import { HeroesModule } from './heroes/heroes.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    ContadorComponent, 
-    HeroeComponent, ListaComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
+    HeroesModule,
+    ContadorModule,
+    DbzModule
   ],
   providers: [],
   bootstrap: [AppComponent]

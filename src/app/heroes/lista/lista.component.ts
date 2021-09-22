@@ -4,7 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-lista',
   templateUrl: './lista.component.html'
 })
-export class ListaComponent implements OnInit {
+export class ListaComponent {
 
   heroeBorrado:string='';
   heroes: string[]=['Spiderman','Hulk', 'Godzilla','Wolverine'];
@@ -15,11 +15,6 @@ export class ListaComponent implements OnInit {
     console.log('Borrando! ', this.heroeBorrado);
   }
 
-  constructor() {
-   }
-
-  ngOnInit(): void {
-
-  }
+  
 
 }
