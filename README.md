@@ -3,6 +3,8 @@
 * ng new bases
 * ng --version //para ver la vesion isntalada
 
+# || significa o y en el ejemplo lo que significa es que si es undefined mostrara ''
+   this.heroeBorrado =this.heroes.shift()|| '';
 
 
 
