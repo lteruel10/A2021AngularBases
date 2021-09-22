@@ -17,6 +17,7 @@ export class HeroeComponent{
     }
 
     cambiarNombre():void{
+        console.log('heyyy');  
         this.nombre='Spiderman'
     }
 
