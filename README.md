@@ -33,10 +33,14 @@
     <form (ngSubmit)="agregar()" >
 
 
+* () eschuchar o emite un evento
+* [] establecer propiedad a un objeto
 
 
 
-
+* EMITE RECIBE YESTABLECE
+            name="nombre"
+            [(ngModel)]="nuevo.nombre"//TOMOA LO DEL INPUT a travez de submit..
 
 
 
