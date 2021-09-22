@@ -7,6 +7,14 @@
    this.heroeBorrado =this.heroes.shift()|| '';
 
 
+# Referencias locales para usar else en *ngIf sond e Angular
+<div *ngIf="heroeBorrado; else noBorrado" class="">
+        <h3  >Heroe borrado  <small>{{heroeBorrado}}</small></h3>
+</div>
+
+<ng-template #noBorrado >
+    <h3  >Ningun Heroe borrado</h3>
+</ng-template>
 
 
 
