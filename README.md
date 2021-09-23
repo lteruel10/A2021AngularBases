@@ -42,6 +42,11 @@
             name="nombre"
             [(ngModel)]="nuevo.nombre"//TOMOA LO DEL INPUT a travez de submit..
 
+# COMPONENTES PADRES E HIJOS
+
+@Input() personajes:any[]=[]; //EL @input le dice que tiene o hereda del padre
+
+  @Input('data') personajes:any[]=[];// para evitar la redundancia le cambiamos el nombre al iput de personjes a 'data'
 
 
 
