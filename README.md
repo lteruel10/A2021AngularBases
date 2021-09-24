@@ -53,6 +53,12 @@
 * Clase abstracta donde se va a manejar la informacion para interactuar con ella
 * Lugar centralizado donde manejar la informacion
 
+* propiedad privada estandard _propiedadPrivada el _ es casi obligatorio x estandard
+ private _personajes:Personaje[]
+
+ * separa los elementos del arreglo y crea uno nuevo y rompe la referencia con la propiedad
+    [...this._personajes];//con los corchetes y los ... 
+
 
 
 
