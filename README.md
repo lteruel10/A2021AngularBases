@@ -49,8 +49,9 @@
   @Input('data') personajes:any[]=[];// para evitar la redundancia le cambiamos el nombre al iput de personjes a 'data'
 
 
-
-
+# SERVICIOS DEL
+* Clase abstracta donde se va a manejar la informacion para interactuar con ella
+* Lugar centralizado donde manejar la informacion
 
 
 
