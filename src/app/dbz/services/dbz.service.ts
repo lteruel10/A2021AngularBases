@@ -17,8 +17,17 @@ export class DbzService{
        get personajes():Personaje[] {
            return [...this._personajes];
        }
+
+
     constructor(){
         console.log('Servicio DBZ inicializado');
     }
+    agregarNuevoPersonaje(argumento:Personaje){
+        // debugger;//deterne jecucion
+        console.log('Main page component');
+        this._personajes.push(argumento);
+      }
+
+    
 
 }
